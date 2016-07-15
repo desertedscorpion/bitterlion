@@ -2,7 +2,7 @@
     "use strict";
     return [
         gulp.task("lint", function() {
-            return gulp.src("gulpfile.js")
+            return gulp.src("*.js")
                 .pipe(jshint())
                 .pipe(jshint.reporter("default"));
         })
