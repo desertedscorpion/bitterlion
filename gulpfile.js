@@ -1,8 +1,5 @@
-(function(gulp) {
+(function(gulp, jshint) {
     "use strict";
-    var jshint = require("gulp-jshint");
-
-    // Lint Task
     gulp.task("lint", function() {
         return gulp.src("gulpfile.js")
             .pipe(jshint())
@@ -10,5 +7,6 @@
         return 5;
     });
 }(
-    require("gulp")
+    require("gulp"),
+    require("gulp-jshint")
 ));
