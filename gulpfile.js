@@ -1,6 +1,6 @@
 (function(gulp, jshint) {
     "use strict";
-    gulp.task("lint", function() {
+    return gulp.task("lint", function() {
         return gulp.src("gulpfile.js")
             .pipe(jshint())
             .pipe(jshint.reporter("default"));
