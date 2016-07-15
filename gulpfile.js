@@ -1,8 +1,5 @@
-(function() {
+(function(gulp) {
     "use strict";
-    var gulp = require("gulp");
-
-    // Include Our Plugins
     var jshint = require("gulp-jshint");
 
     // Lint Task
@@ -12,4 +9,6 @@
             .pipe(jshint.reporter("default"));
         return 5;
     });
-}());
+}(
+    require("gulp")
+));
