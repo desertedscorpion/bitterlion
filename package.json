@@ -1,0 +1,19 @@
+{
+  "name": "bitterlion",
+  "version": "0.0.0",
+  "description": "Client Side Career Tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/desertedscorpion/bitterlion.git"
+  },
+  "author": "Emory Merryman <emory.merryman@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/desertedscorpion/bitterlion/issues"
+  },
+  "homepage": "https://github.com/desertedscorpion/bitterlion#readme"
+}
