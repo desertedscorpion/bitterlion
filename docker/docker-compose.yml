@@ -1,0 +1,6 @@
+version: "2"
+services:
+  karma:
+    dockerfile: images/karma
+    volumes:
+      - ..:/usr/local/src
